@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
+
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+.align-self-center{
+    align-self: center;
+}
+.header{
+    padding: 24px 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.logo img{
+    height: 100px;  
+}
+.nav{
+    width: 200%;
+}
+.nav ul{
+    list-style: none;
+    margin-top: 35px;
+}
+.nav li a{
+    font-size: 100px;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.nav li{
+    margin: 0 24px;
+}
+.nav li a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.section-1{
+    height: 100vh;
+    background: url("../img/falco-negenman--f2sJr-PJDA-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.welcome{
+    padding:20px 60px 20px 60px;
+    color: white;
+    background-color: rgba(108, 108, 108, 0.353);
+    border-radius: 5px;      
+}
+.welcome h1{
+    font-size: 60px;
+    margin-top: 10px;
+}
+.section-1 p{
+    margin: 22px 0;
+    font-size: 18px;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+}
+.ticket{
+    padding: 8px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(158, 0, 243);
+    border-radius: 20px;
+}
+.section-2{
+    padding: 80px;
+}
+.section-2 h1{
+    text-align: center;
+    margin-bottom: 24px;
+    background: -webkit-linear-gradient(rgb(3, 228, 253), rgb(107, 10, 253), pink );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;        
+}
+.section-2 p{
+    line-height: 150%;
+    text-align: justify;
+    color: rgb(80, 67, 67);
+    font-size: 18px;
+    font-family: 'MuseoModerno', cursive;
+}
+.banner{
+    height: 300px;
+    overflow: hidden; 
+    position: relative; 
+}
+.banner video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.258);
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
+    text-align: center;
+    align-items: center;    
+}
+.main2{
+    height: 100vh;
+    background: url("../img/elisha-terada-MmuW8T6GwK4-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: flex;
+
+}
+.box2{
+    background-color: rgba(108, 108, 108, 0.353);
+    height: 390px;
+    width: 500px;
+    top: 150px;
+    right: 100px;  
+    position: absolute;
+}
+.exhibition{
+    color: white;
+    padding: 40px 20px 0 40px;
+    
+}
+.exhibition h2{
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 8px;
+}
+.exhibition p{
+    margin: 30px 0 45px 0;
+    font-size: 16px;
+    font-family: 'MuseoModerno', cursive;
+}
+.exhibition span{
+    font-size: 18px;
+    color: aqua;
+    font-family: 'MuseoModerno', cursive;
+}
+.exhibition a{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: rgb(158, 0, 243);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+.body{
+    background-color: black;
+}
+.content3 h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    background: -webkit-linear-gradient(rgb(3, 228, 253), rgb(107, 10, 253), pink );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content3 p{
+    /* margin-top: 60px; */
+    padding-top: 100px;
+    color: aqua;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'MuseoModerno', cursive;
+}
+.card{
+    width: 300px;
+    background-size: contain;
+    overflow: hidden;
+    background-color: white;
+}
+.content2{
+    padding: 40px 20px 40px;
+}
+.content2 h2{
+    margin-bottom: 20px;
+}
+.content2 p{
+    margin-top: 6px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-family: 'MuseoModerno', cursive;
+}
+.content2 span{
+    font-size: 16px;
+}
+.section-3{
+    padding: 120px;
+}
+.section-3 h1{
+    text-align: center;
+    word-spacing: 15px;
+    margin-bottom: 24px;
+    background: -webkit-linear-gradient(rgb(3, 228, 253), rgb(107, 10, 253), pink );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;        
+}
+
+.section-3 p{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'MuseoModerno', cursive;
+}
+/* space */
+.main3{
+    height: 100vh;
+    background: url("../img/mathieu-turle-tBnLsg_VDJw-unsplash.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.box3{
+    background-color: rgba(108, 108, 108, 0.408);
+    height: 500px;
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 90px;
+    position: absolute;
+}
+.member{
+    color: white;
+    padding: 40px 20px 0 40px;
+    
+}
+.member h2{
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 8px;
+}
+.member p{
+    margin: 30px 0 45px 0;
+    font-size: 16px;
+    font-family: 'MuseoModerno', cursive;
+}
+.member span{
+    font-size: 18px;
+    color: aqua;
+    font-family: 'MuseoModerno', cursive;
+}
+.member a{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: rgb(158, 0, 243);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+/* FOOTER */
+.aboutt{
+    padding: 10px 15px;
+}
+.aboutt img{
+    height: 70px;
+}
+.aboutt h2{
+    font-size: 18px;
+    line-height: 47px;
+    margin-bottom: 8px;
+}
+.aboutt ul{
+    margin: 30px 0;
+    padding-left: 17px;
+    font-size: 14px;
+    font-family: 'MuseoModerno', cursive;
+}
+.aboutt p{
+    font-size: 14px;
+    font-family: 'MuseoModerno', cursive;
+}
+.aboutt a{
+    padding: 15px 40px;
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    padding: 22px 0;
+    background-color: rgb(60, 60, 60);
+    color: white;
+}
+.ticket:hover{
+    background-color: aqua;
+}
+.btn2:hover{
+    background-color: aqua;
+}
+.btnf:hover{
+    color: aqua;
+}
